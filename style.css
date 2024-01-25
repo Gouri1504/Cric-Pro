@@ -1,0 +1,124 @@
+/* Type your code here */
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=Roboto&family=Ubuntu&display=swap%27");
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Nunito Sans';
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/cricpro-bg.png);
+  background-size: cover;
+}
+
+header {
+  display: flex;
+  margin-top: 8px;
+  margin-right: 10px;
+  justify-content: flex-end;
+}
+
+h1 {
+  font-size: 45px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  font-weight: bolder;
+  text-shadow: 3px 2px 3px rgb(143, 142, 142);
+}
+
+h5 {
+  margin-left: 10px;
+  color: #858585;
+  word-spacing: 1px;
+  font-size: x-large;
+  margin-top: 0px;
+}
+
+
+table{
+  width: 823px;
+  height: 420px;
+  margin-top: 15px;
+  margin-left: 10px;
+  margin-bottom: 40px;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+.firstline {
+  color: white;
+  height: 43px;
+  border-bottom: none;
+  background-color: #f05033;
+}
+.right{
+  text-align: right;
+}
+.secondline { 
+  background-color: rgb(250,250,250);
+}
+
+.column1 {
+  font-weight: 500;
+  color: #5f9ff3;
+  font-family: 'Nunito Sans'; 
+}
+
+.column1:hover {
+  cursor: pointer;
+}
+
+.column2 {
+  font-weight: 300;  
+  color: #8d8787;
+}
+
+.lastrow {
+  font-weight: 500;
+  color: #5f9ff3;
+  font-size: 20px;
+  font-family: 'Nunito Sans';
+}
+
+.lastrow:hover {
+  cursor: pointer;
+}
+
+.lasttd {
+  text-align: end;
+  width: 30px;
+}
+
+tr {
+  border-bottom: 2.5px solid;
+  border-color: #efefef;
+}
+
+td {
+  font-weight: 600;
+  align-content: center;
+  padding: 7px 24px 7px 15px;
+}
+
+footer {
+  margin-left: 10px;
+}
+
+.popup {
+  display: none;
+  position: absolute;
+}
+
+#popup-last {
+  display: flex;
+}
+
+span p{
+  font-size: 18px;
+  margin-right: 7px;
+}
+
+.shape {
+  color: red;
+}
